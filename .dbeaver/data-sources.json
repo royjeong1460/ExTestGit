@@ -1,0 +1,133 @@
+{
+	"folders": {},
+	"connections": {
+		"oracle_thin-1783946ebdc-517d21bc24d20576": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "XE",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@localhost:1521:XE",
+				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-check-schema-content@": "false",
+					"@dbeaver-always-show-dba@": "false",
+					"@dbeaver-always-use-dba-views@": "false",
+					"@dbeaver-meta-use-sys-schema@": "false",
+					"@dbeaver-meta-use-simple-constraints@": "false",
+					"@dbeaver-use-rule-hint@": "false",
+					"@dbeaver-use-meta-optimizer@": "false",
+					"@dbeaver-meta-use-alternative-table-query@": "false",
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SID"
+				},
+				"auth-model": "oracle_native"
+			}
+		},
+		"oracle_thin-17840aa55e7-113e55d933e642a": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "XE 2",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@localhost:1521:XE",
+				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-check-schema-content@": "false",
+					"@dbeaver-always-show-dba@": "false",
+					"@dbeaver-always-use-dba-views@": "false",
+					"@dbeaver-meta-use-sys-schema@": "false",
+					"@dbeaver-meta-use-simple-constraints@": "false",
+					"@dbeaver-use-rule-hint@": "false",
+					"@dbeaver-use-meta-optimizer@": "false",
+					"@dbeaver-meta-use-alternative-table-query@": "false",
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SID"
+				},
+				"auth-model": "oracle_native"
+			}
+		},
+		"oracle_thin-1786be1fe2c-118c3cd39b9b0c0b": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "XE 3",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@localhost:1521:XE",
+				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-check-schema-content@": "false",
+					"@dbeaver-always-show-dba@": "false",
+					"@dbeaver-always-use-dba-views@": "false",
+					"@dbeaver-meta-use-sys-schema@": "false",
+					"@dbeaver-meta-use-simple-constraints@": "false",
+					"@dbeaver-use-rule-hint@": "false",
+					"@dbeaver-use-meta-optimizer@": "false",
+					"@dbeaver-meta-use-alternative-table-query@": "false",
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SID"
+				},
+				"auth-model": "oracle_native",
+				"handlers": {}
+			}
+		},
+		"oracle_thin-1786be40602-23e3a7afdca9e248": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "XE 4",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@localhost:1521:XE",
+				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-check-schema-content@": "false",
+					"@dbeaver-always-show-dba@": "false",
+					"@dbeaver-always-use-dba-views@": "false",
+					"@dbeaver-meta-use-sys-schema@": "false",
+					"@dbeaver-meta-use-simple-constraints@": "false",
+					"@dbeaver-use-rule-hint@": "false",
+					"@dbeaver-use-meta-optimizer@": "false",
+					"@dbeaver-meta-use-alternative-table-query@": "false",
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SID"
+				},
+				"auth-model": "oracle_native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
